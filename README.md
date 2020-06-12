@@ -1,5 +1,5 @@
 # gui-docker
-dockerでGUIを使えるようにしたDockerfileです．
+DockerでGUIを使えるようにしたDockerfileです．
 
 使うためには[Nvidia-docker](https://github.com/FirstSS-Sub/Docker-Mnist)の通りに環境を構築してあることが前提です．
 
