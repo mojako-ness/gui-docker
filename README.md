@@ -48,6 +48,30 @@ python3 test.py
  ```
 
 を実行してみてください．簡単なグラフが出てこれば成功です．お疲れ様でした．
+
+## 使い終わったら
+コンテナを停止もしくは削除しないと使用したポートが使われたままになります．
+#### 停止
+```
+sudo docker ps
+```
+でコンテナのIDを確認し
+```
+sudo docker stop [コンテナのID]
+```
+もしくは
+```
+sudo docker stop gui-docker
+```
+#### 削除
+```
+sudo docker rm [コンテナのID]
+```
+もしくは
+```
+sudo docker rm gui-docker
+```
+
 ## 参考サイト
 [Docker 初心者 — ssh で接続できるサーバーを立てる](https://qiita.com/YumaInaura/items/adb20c8083fce2da86e1)
 
