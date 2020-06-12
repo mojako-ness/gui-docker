@@ -37,7 +37,7 @@ sudo docker run --gpus all  -v $(pwd):/user/local -d -p {$PORT}:22 gui-docker
 ssh -X root@localhost -p {$PORT}
  ```
 
-このとき，パスワードは*screencast*です．(必要であれば適宜Dockerfileをいじって変更してください．)
+このとき，パスワードは**screencast**です．(必要であれば適宜Dockerfileをいじって変更してください．)
 
 ログインすることができたら，
 
