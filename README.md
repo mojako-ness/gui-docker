@@ -1,7 +1,7 @@
 # gui-docker
 DockerでGUIを使えるようにしたDockerfileです．
 
-使うためには[Nvidia-docker](https://github.com/FirstSS-Sub/Docker-Mnist)の通りに環境を構築してあることが前提です．
+使うためには[Nvidia-dockerの導入](https://github.com/FirstSS-Sub/Docker-Mnist)の通りに環境を構築してあることが前提です．
 
 なお，このDockerfileには，opencv,tensorflowなどが最初から入っています．
 
