@@ -78,3 +78,5 @@ sudo docker rm gui-docker
 [SSHで接続したリモートホストのGUIアプリケーションを使用する方法](https://users.miraclelinux.com/support/?q=node/374)
 
 [一般ユーザー権限で入れるsshd専用コンテナをdockerで動かした](https://blog.n-z.jp/blog/2018-07-31-user-sshd-in-docker.html)
+
+[dockerfileでpython/opencv環境を構築する。](https://kinacon.hatenablog.com/entry/2018/10/23/152944)
